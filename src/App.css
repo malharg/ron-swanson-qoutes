@@ -1,0 +1,48 @@
+
+.app {
+  text-align: center;
+  padding: 20px;
+}
+body {
+  background-image: url('C:\Users\malha\ron-swanson-qoutes\src\image.jpg');
+  background-size:  cover;
+  background-repeat: no-repeat;
+  background-position:center center;
+  background-attachment: fixed;
+
+}
+.quote-card {
+  border: 1px solid #1f0c0c;
+  padding: 20px;
+  margin: 150px;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.2);
+  font-family: sans-serif;
+  font-style: oblique;
+  font-weight: 300;
+  font-size: larger;
+  
+}
+
+button {
+  margin: 10px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: rgb(255, 255, 255, 0.2);
+  font-size:medium;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 300;
+}
+
+button:hover {
+  background-color: #2b252585;
+}
+
+.saved-quotes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  
+}
